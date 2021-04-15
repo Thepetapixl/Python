@@ -55,5 +55,5 @@ num2 = int(input("\nEnter the second numer: \n"))
 
 result = compute_lcm(num1, num2)                                # Shorter method.
 
-print("\nThe lcm of the towo numbers " + str(num1) + " and " + str(num2) + " is: " + str(result))
+print("\nThe lcm of the two numbers {} and {} is: {}".format(str(num1), str(num2), str(result)))
 print("\nEnd \n")

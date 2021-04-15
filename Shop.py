@@ -21,4 +21,4 @@ print('Selected item: ' + selected_menu_item.name)
 
 count = int(input('Enter quantity (10% off for 3 or more): '))
 result = selected_menu_item.get_total_price(count)
-print('Your total is $' + str(result))
+print('Your total is ${}'.format(str(result)))
